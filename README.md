@@ -1,6 +1,6 @@
 # Targeted Long-Read Sequencing Analysis Pipeline
 
-[![Tests](https://github.com/USERNAME/targeted-long-read-analysis-pipeline/actions/workflows/tests.yml/badge.svg)](https://github.com/USERNAME/targeted-long-read-analysis-pipeline/actions/workflows/tests.yml)
+[![Tests](https://github.com/yavuzesra/targeted-long-read-analysis-pipeline/actions/workflows/tests.yml/badge.svg)](https://github.com/yavuzesra/targeted-long-read-analysis-pipeline/actions/workflows/tests.yml)
 
 Metadata-driven Bash/Python workflow for quality control, target-enrichment analysis, coverage assessment, GIAB small-variant benchmarking and technical variant summarisation of targeted Oxford Nanopore Technologies (ONT) sequencing data.
 
