@@ -1,0 +1,28 @@
+project:
+  name: targeted-long-read-analysis-pipeline
+  description: Metadata-driven analysis pipeline for targeted Oxford Nanopore long-read sequencing
+  reference_build: GRCh38
+  reference_set: GRCh38 no-alt analysis set
+
+resources:
+  # Large reference resources are intentionally external. Replace these paths locally.
+  reference_fasta: /path/to/GRCh38_no_alt_analysis_set.fna
+  reference_fai: /path/to/GRCh38_no_alt_analysis_set.fna.fai
+  target_bed: resources/panel/autoinflammatory.bed
+  annotation_xlsx: resources/panel/panel_annotation.xlsx
+  annotation_sheet: CSV + custom panel
+  rtg_sdf: /path/to/GRCh38_no_alt.sdf
+
+coverage:
+  thresholds:
+    - 1
+    - 10
+    - 20
+  panel_qc_threshold_depth: 20
+  panel_qc_required_percentage: 90
+
+modules:
+  off_target_analysis: false
+  igv_batch_preparation: true
+  sv_phasing_summary: false
+  igv_review_batch_preparation: false

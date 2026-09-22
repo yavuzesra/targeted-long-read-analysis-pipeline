@@ -1,0 +1,3 @@
+group_id	sample_ids	include	notes
+validation_example	HG002	false	Example IGV group; enable after configuring local files
+application_example	CLINICAL_SAMPLE_01	false	Synthetic IGV group; enable after configuring local files

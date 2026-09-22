@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments and editors
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+*~
+*.swp
+
+# Runtime and temporary outputs
+work/
+results/
+logs/
+tmp/
+temp/
+
+# Large sequencing and alignment files
+*.bam
+*.bai
+*.cram
+*.crai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.pod5
+*.fast5
+
+# Variant and benchmark outputs
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.bcf
+*.bcf.csi
+
+# Coverage and intermediate genomic files
+*.bedgraph
+*.bigWig
+*.bw
+
+# Generated reports and screenshots
+*.png
+*.jpg
+*.jpeg
+*.html
+*.xlsx
+!resources/panel/panel_annotation.xlsx
+
+# Local backups
+backups/
+*_backup_*/
+*.before_*
+*.bak
+*.tmp
+*.patch
+*.zip
+*.tar
+*.tar.gz
+*:Zone.Identifier
+
+# Local audit and run records
+*_inventory.txt
+full_pipeline_run_*.txt
+non_english_language_scan_*.txt
+preflight_apply_and_plan.txt
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Public-repository safety: large sequencing data and patient-level outputs
+*.bam
+*.bai
+*.cram
+*.crai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.bcf
+*.bcf.csi
+*.tbi
+*.csi
+*.log
+*.png
+*.jpg
+*.jpeg
+*.pdf
+.DS_Store

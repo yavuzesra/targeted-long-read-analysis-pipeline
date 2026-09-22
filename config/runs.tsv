@@ -1,0 +1,4 @@
+run_id	run_label	workflow	workflow_version	output_directory	reference_build	notes
+method_run_1	method_development_example	wf-alignment	1.2.5	/path/to/method_run_1/output	GRCh38	Example method-development run
+validation_run	giab_validation_example	wf-alignment	1.2.6	/path/to/validation_run/output	GRCh38	Example GIAB validation run
+application_run	workflow_application_example	wf-alignment	1.2.6	/path/to/application_run/output	GRCh38	Synthetic workflow-application run

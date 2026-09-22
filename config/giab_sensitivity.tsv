@@ -1,0 +1,2 @@
+comparison_id	sample_id	truth_vcf	truth_vcf_index	truth_bed	truth_version	include	notes
+HG002_v4_2_1	HG002	/path/to/HG002_v4.2.1_benchmark.vcf.gz	/path/to/HG002_v4.2.1_benchmark.vcf.gz.tbi	/path/to/HG002_v4.2.1_benchmark.bed	v4.2.1	false	Optional public GIAB truth-set sensitivity example

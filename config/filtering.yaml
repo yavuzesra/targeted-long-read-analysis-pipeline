@@ -1,0 +1,32 @@
+filters:
+  primary_total:
+    description: Primary mapped and unmapped read records used for BAM-based mapping-rate calculation
+    exclude_flags: 2304
+    excluded_categories:
+      - secondary
+      - supplementary
+
+  primary_mapped:
+    description: Primary mapped read records used for the mapping-rate numerator
+    exclude_flags: 2308
+    excluded_categories:
+      - unmapped
+      - secondary
+      - supplementary
+
+  panel_analysis:
+    description: Mapped primary records retained for on-target, coverage, uniformity and off-target analyses
+    exclude_flags: 3844
+    excluded_categories:
+      - unmapped
+      - secondary
+      - qc_failed
+      - duplicate
+      - supplementary
+
+assumptions:
+  count_secondary_as_independent_reads: false
+  count_supplementary_as_independent_reads: false
+  exclude_duplicate_flagged_records_from_panel_analysis: true
+  exclude_qc_failed_records_from_panel_analysis: true
+  create_permanent_filtered_bams: false

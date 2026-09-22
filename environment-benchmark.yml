@@ -1,0 +1,13 @@
+name: targeted-long-read-benchmark
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # hap.py 0.3.15 is distributed by Bioconda with a Python 2.7 runtime.
+  # This environment is used only by the shell-based GIAB benchmarking step.
+  - python=2.7
+  - hap.py=0.3.15
+  - rtg-tools=3.13
+  - bcftools=1.17
+  - samtools=1.18
+  - bedtools

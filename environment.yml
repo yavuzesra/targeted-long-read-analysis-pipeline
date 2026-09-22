@@ -1,0 +1,14 @@
+name: targeted-long-read-analysis
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - samtools=1.18
+  - bcftools=1.17
+  - bedtools
+  - pyyaml
+  - openpyxl
+  - numpy
+  - matplotlib
+  - pytest
