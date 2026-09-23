@@ -334,7 +334,7 @@ It intentionally excludes:
 
 ## Citation / project context
 
-Developed as part of the BSc thesis **“Evaluation of a Hybrid-Capture Long-Read Sequencing Workflow for Autoinflammatory Disorders”** at HES-SO Valais-Wallis, with clinical workflow application performed in collaboration with CHUV.
+Developed as part of the BSc thesis **“Long-read-based diagnostic of autoinflammatory disorders”** at HES-SO Valais-Wallis, with clinical workflow application performed in collaboration with CHUV.
 
 ## License
 
